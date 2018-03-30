@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/camIcon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:src="@drawable/ic_photo_camera_black_24dp"
+            android:paddingBottom="15dp"
+            android:onClick="cam"
+            android:paddingTop="15dp"/>
+        <TextView
+            android:id="@+id/chats"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="chats"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:onClick="chats"
+            android:textAllCaps="true"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="status"
+            android:text="status"
+            android:textColor="@color/tabDefault"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/calls"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="calls"
+            android:onClick="calls"
+            android:textColor="@color/tabDefault"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp">
+        <TextView
+            android:id="@+id/camLine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            />
+        <TextView
+            android:id="@+id/chatsLine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white"/>
+        <TextView
+            android:id="@+id/statusLine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/callsLine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
